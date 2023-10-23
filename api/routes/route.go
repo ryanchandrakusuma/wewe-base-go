@@ -1,13 +1,13 @@
 package routes
 
 import (
-	"database/sql"
 	"ryanchandrakusuma/wewe-base-go/config"
 	"time"
 
 	"github.com/gin-gonic/gin"
+	"github.com/jackc/pgx/v5"
 )
 
-func Setup(env *config.Env, timeout time.Duration, db *sql.DB, gin *gin.Engine) {
+func Setup(env *config.Env, timeout time.Duration, db *pgx.Conn, gin *gin.Engine) {
 
 }
