@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ryanchandrakusuma/wewe-base-go/api/routes"
 	"ryanchandrakusuma/wewe-base-go/config"
+	"ryanchandrakusuma/wewe-base-go/routes"
 	"time"
 
 	"github.com/gin-gonic/gin"

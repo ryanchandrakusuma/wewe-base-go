@@ -10,4 +10,8 @@ import (
 
 func Setup(env *config.Env, timeout time.Duration, db *pgx.Conn, gin *gin.Engine) {
 
+	publicRouter := gin.Group("")
+	// All Public APIs
+	NewBookRouter(env, timeout, db, publicRouter)
+	
 }
