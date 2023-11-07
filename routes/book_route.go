@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"ryanchandrakusuma/wewe-base-go/api/book/delivery/controller"
+	"ryanchandrakusuma/wewe-base-go/api/book/controller"
 	"ryanchandrakusuma/wewe-base-go/api/book/repository"
 	"ryanchandrakusuma/wewe-base-go/api/book/usecase"
 	"ryanchandrakusuma/wewe-base-go/config"
